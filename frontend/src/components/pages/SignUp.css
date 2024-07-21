@@ -1,0 +1,63 @@
+.signup-form {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.signup-form-one-subheader {
+  font-size: 14px;
+  width: 250px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.signup-facebook-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.signup-facebook-button span {
+  background-color: var(--blue-color);
+}
+
+.signup-facebook-button-icon {
+  margin-right: 5px;
+  font-size: 18px;
+  background-color: var(--blue-color);
+}
+
+.signup-form-one-learnmore {
+  font-size: 11px;
+  width: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.signup-form-one-learnmore-navy {
+  margin-left: 5px;
+  color: var(--blue-color);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.signup-form-two {
+  border: 1px solid var(--grey-color);
+  margin: 3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 85px;
+  padding-left: 85px;
+  color: var(--text-color);
+}
+
+.validation-error {
+  font-size: 11px;
+  margin-bottom: 4px;
+  color: var(--red-color);
+}

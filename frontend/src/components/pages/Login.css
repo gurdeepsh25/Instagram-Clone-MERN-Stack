@@ -1,0 +1,166 @@
+.login {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+}
+
+.login-form {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.login-form-one {
+  border: 1px solid var(--grey-color);
+  margin: 3px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form-one h5 {
+  font-size: 40px;
+  font-family: "Lobster Two", sans-serif;
+  margin-bottom: 25px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.login-form-one input {
+  padding: 6px;
+  margin-bottom: 6px;
+  width: 250px;
+  height: 22px;
+  border: 1px solid var(--grey-color);
+  background-color: var(--search-color);
+  color: var(--text-color);
+}
+
+.login-form-one button {
+  margin-top: 8px;
+  height: 35px;
+  border: 1px solid var(--blue-color);
+  background-color: var(--blue-color);
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-form-one p {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: var(--grey-color);
+}
+
+.login-facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: var(--blue-color);
+  cursor: pointer;
+}
+
+.login-facebook-icon {
+  margin-right: 5px;
+}
+
+.login-forgotpassword {
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.login-form-two {
+  border: 1px solid var(--grey-color);
+  margin: 3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 60px;
+  padding-left: 60px;
+  color: var(--text-color);
+}
+
+.login-form-two-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.login-form-two-sub-signup {
+  color: var(--blue-color);
+  margin-left: 5px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.login-form-three {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.login-form-three span {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.login-form-three-sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-googlemicrosoft {
+  background-color: var(--text-color);
+  color: #fff;
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-googlemicrosoft-sub {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: var(--text-color);
+}
+
+.login-googlemicrosoft-icon {
+  font-size: 25px;
+  margin-right: 8px;
+  color: var(--text-color);
+}
+
+.login-googlemicrosoft-sub span {
+  font-size: 10px;
+  margin-bottom: 0px;
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+
+.login-googlemicrosoft-sub p {
+  font-size: 14px;
+  margin-top: 0px;
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
